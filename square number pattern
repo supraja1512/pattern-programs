@@ -1,0 +1,239 @@
+1.////number series1///
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            cout<<"1";
+        }
+        cout<<endl;
+    }
+}
+o/p:
+11111
+11111
+11111
+11111
+11111
+///2./NUMBER SERIES2////
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if(i%2==0)
+            {
+                cout<<"0";
+            }
+            else
+            {
+            cout<<"1";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+11111
+00000
+11111
+00000
+11111
+
+////3.NUMBER SERIES3////
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if(j%2==0)
+            {
+                cout<<"1";
+            }
+            else
+            {
+            cout<<"0";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+01010
+01010
+01010
+01010
+01010
+///4.NUMBER SERIES4///
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if(((j==1)||(i==n)||(j==n)||(i==1)))
+            {
+                cout<<"1";
+            }
+            else
+            {
+                cout<<"0";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+11111
+10001
+10001
+10001
+11111
+
+////5.NUMBER SERIES5////
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    double n;
+    double s;
+    cin>>n;
+    s=ceil(n/2);
+   
+    for(int i=1;i<=n;i++)
+    {
+       for(int j=1;j<=n;j++)
+        {
+            
+           if((i==j)&&(j==s)&&(s==i))
+            {
+                cout<<"0";
+           }
+            else
+            {
+                cout<<"1";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+11111
+11111
+11011
+11111
+11111
+///6.NUMBER SERIES////
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,s;
+    cin>>n;
+    
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            s=i+j;
+            if((s%2==0))
+            {
+                cout<<"1";
+            }
+            else
+            {
+                cout<<"0";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+10101
+01010
+10101
+01010
+10101
+///7.NUMBER SERIES7////
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int n,s;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if((j==3)||(i==3))
+            {
+                cout<<"0";
+            }
+            else
+            {
+                cout<<"1";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+11011
+11011
+00000
+11011
+11011
+///8.NUMBER SERIES8////
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int n,s;
+    cin>>n;
+    s=(n+1)/2;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if((j==s)||(i==s))
+            {
+                cout<<"0";
+            }
+            else
+            {
+                cout<<"1";
+            }
+        }
+        cout<<endl;
+    }
+}
+O/P:
+11011
+11011
+00000
+11011
+11011
+
