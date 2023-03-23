@@ -1,0 +1,226 @@
+PATTERN 1:
+O/P:
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int i=5;i>=1;i--)
+    {
+        for(int j=1;j<=5;j++)
+        {
+            if(i>=j){
+            cout<<j;
+            }
+        }
+        cout<<endl;
+    }
+}
+PATTERN 2:
+O/P:
+1 2 3 4 5
+2 3 4 5
+3 4 5
+4 5
+5
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=i;j<=5;j++)
+        {
+            cout<<j;
+        }
+        cout<<endl;
+    }
+}
+PATTERN 3:
+o/p:
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int i=5;i>=1;i--)
+    {
+        for(int j=i;j>=1;j--)
+        {
+            cout<<j;
+        }
+        cout<<endl;
+    }
+}
+PATTERN 4:
+O/P:
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=5;j>=1;j--)
+        {
+            if(j>=i){
+            cout<<j;
+            }
+        }
+        cout<<endl;
+    }
+}
+PATTERN 5:
+O/P:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+        {
+            if(i>=j){
+            cout<<j;
+            }
+        }
+        cout<<endl;
+    }
+}   
+PATTERN 6:
+O/P:
+5
+4 5
+3 4 5
+2 3 4 5
+1 2 3 4 5
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()     
+{
+    for(int i=5;i>=1;i--)
+    {
+        for(int j=i;j<=5;j++)
+        {
+            if(j>=i){
+            cout<<j;
+            }
+        }
+        cout<<endl;
+    }
+}   
+PATTERN 7:
+O/P:
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()     
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=i;j>=1;j--)
+        {
+            if(j<=i){  
+                cout<<j;
+            }
+        }
+        cout<<endl;
+    }
+}   
+PATTERN 8:
+O/P:
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()     
+{
+    for(int i=5;i>=1;i--)
+    {
+        for(int j=5;j>=1;j--)
+        {
+            if(j>=i){  
+                cout<<j;
+            }
+        }
+        cout<<endl;
+    }
+}   
+PATTERN 9:
+O/P:
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()     
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+        {
+            if(j<=i){  
+                cout<<i;
+            }
+        }
+        cout<<endl;
+    }
+}   
+PATTERN 10:
+O/P:
+1 1 1 1 1
+2 2 2 2 
+3 3 3 
+4 4
+5
+SOURCE CODE:
+#include<iostream>
+using namespace std;
+int main()     
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=5;j>=1;j--)
+        {
+            if(j>=i){  
+                cout<<i;
+            }
+        }
+        cout<<endl;
+    }
+}   
