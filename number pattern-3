@@ -1,0 +1,60 @@
+PATTERN 13:
+O/P:
+1
+0 1
+1 0 1
+0 1 0 1
+SOURCE CODE:
+#include <iostream>
+using namespace std;
+int main()
+{
+    for(int i=1;i<=4;i++)    
+    {
+        for(int j=1;j<=i;j++)
+        {
+            if((i+j)%2==0)
+            {
+                cout<<"1";
+            }
+            else
+            {
+                cout<<"0";
+            }
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+PATTERN 14:
+O/P:
+1 3 5 7 9
+3 5 7 9
+5 7 9
+7 9
+9
+SOURCE CODE:
+#include <iostream>
+using namespace std;
+int main()
+{
+    for(int i=1;i<=9;i=i+2)    
+    {
+        for(int j=i;j<=9;j=j+2)
+        {
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+PATTERN 15:
+O/P:
+1
+2 4
+1 3 5
+2 4 6 8
+1 3 5 7 9
+SOURCE CODE:
