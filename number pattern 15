@@ -1,0 +1,30 @@
+15.number pattern 15:
+o/p:
+1
+2 4
+1 3 5
+2 4 6 8
+1 3 5 7 9
+source code:
+#include<iostream>
+using namespace std;
+int main()
+{
+    int k;
+    for(int i=1;i<=5;i++)
+    {
+       if(i%2==1)
+       {
+           k=1;
+       }
+       else
+       {
+           k=2;
+       }
+       for(int j=1;j<=i;j++,k+=2)
+       {
+           cout<<k;
+       }
+       cout<<endl;
+    }
+}
